@@ -11,6 +11,7 @@ import { app } from "./app.js"
 connectDB()
 .then(()=>{
 
+    
     app.on("error", (error)=>{
         console.log("ERR:", error);
         throw error

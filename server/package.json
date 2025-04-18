@@ -1,4 +1,17 @@
 {
+  "name": "server",
+  "version": "1.0.0",
+  "description": "complete backend by javascrip express.js node.js mongoDB",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config ./src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Nishant bhatia",
+  "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",

@@ -1,10 +1,10 @@
 import React from 'react'
-import DynamicForm from './component/DynamicForm'
+import Dropdown from './component/Dropdown.jsx'
 
 const App = () => {
   return (
     <div>
-      <DynamicForm />
+      <Dropdown />
     </div>
   )
 }

@@ -1,1 +1,1 @@
-export const DB_NAME = "noCodeFormsDB"
+export const DB_NAME = "dropDownDb"
